@@ -1,0 +1,30 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "homework 10.2",
+  "homepage": "https://github.com/TanyaBazuto/webpack#readme",
+  "bugs": {
+    "url": "https://github.com/TanyaBazuto/webpack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanyaBazuto/webpack.git"
+  },
+  "license": "ISC",
+  "author": "TanyaBazuto",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
